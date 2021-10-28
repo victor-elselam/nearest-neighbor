@@ -1,7 +1,7 @@
-using Elselam.Pool;
+using Elselam.Pooling;
 using UnityEngine;
 
-namespace Elselam {
+namespace Elselam.Domain {
     public class Context {
         //Don't like singletons, but a Dependency Injection for this project would be over engineering
         public static Context Instance;

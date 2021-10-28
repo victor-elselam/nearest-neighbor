@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Elselam.Pool {
+namespace Elselam.Pooling {
     public class PoolManager<T> where T : IPoolable<T> {
         private List<T> objects;
         private readonly T itemReference;

@@ -13,11 +13,12 @@ MonoBehaviour:
   m_Name: GameConfigs
   m_EditorClassIdentifier: 
   cubeSpeed: 5
-  lineRendererPrefab: {fileID: 7902959191345803486, guid: 20867ba0f181e4f9a96a9fbfa17b9bc6, type: 3}
   nearestNeighborPrefab: {fileID: 7535128424508372760, guid: 09bce514fa78a49458a995415d79a67d, type: 3}
   positionBounds:
     X: 20
     Y: 20
     Z: 20
+  lineRendererPrefab: {fileID: 7902959191345803486, guid: 20867ba0f181e4f9a96a9fbfa17b9bc6, type: 3}
+  lineRendererWidth: 1
   addItemKey: 97
   removeItemKey: 114

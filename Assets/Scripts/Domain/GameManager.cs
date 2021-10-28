@@ -1,8 +1,9 @@
 using Elselam.GameElements;
-using Elselam.Pool;
+using Elselam.Pooling;
+using Elselam.UI;
 using UnityEngine;
 
-namespace Elselam {
+namespace Elselam.Domain {
     public class GameManager : MonoBehaviour {
         private PoolManager<FindNearestNeighbor> nearestNeighborPool;
         private GameConfigs gameConfigs;

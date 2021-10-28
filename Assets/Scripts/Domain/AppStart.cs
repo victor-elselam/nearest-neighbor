@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Elselam {
+namespace Elselam.Domain {
     public class AppStart : MonoBehaviour {
 
         private void Awake() {

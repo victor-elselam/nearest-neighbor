@@ -1,7 +1,7 @@
 using Elselam.GameElements;
 using UnityEngine;
 
-namespace Elselam {
+namespace Elselam.Domain {
     [CreateAssetMenu(menuName = "Create GameConfigs", fileName = "GameConfigs", order = 0)]
     public class GameConfigs : ScriptableObject {
         [Header("Cube Settings")]

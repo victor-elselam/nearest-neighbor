@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Elselam.Pool {
+namespace Elselam.Pooling {
     public interface IPoolable<T> {
         T Create(ref List<T> neighbors);
         void Remove();

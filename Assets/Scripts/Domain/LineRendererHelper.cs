@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace Elselam {
+namespace Elselam.Domain {
     public class LineRendererHelper {
         private readonly GameConfigs gameConfigs;
 

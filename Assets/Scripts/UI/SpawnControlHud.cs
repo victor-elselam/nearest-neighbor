@@ -1,8 +1,9 @@
 using System;
+using Elselam.Domain;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Elselam {
+namespace Elselam.UI {
     public class SpawnControlHud : MonoBehaviour {
         private GameConfigs config;
         

@@ -1,4 +1,4 @@
-namespace Elselam.Pool {
+namespace Elselam.Pooling {
     public class PoolCreator {
 
         public PoolManager<T> Create<T>(T poolObject, int startPoolSize = 10) where T : IPoolable<T>, new() {
