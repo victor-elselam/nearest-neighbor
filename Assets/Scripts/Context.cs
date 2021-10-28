@@ -7,9 +7,9 @@ namespace Elselam {
         public static Context Instance;
 
         public GameConfigs GameConfigs;
-        public GameManager GameManager;
         public LineRendererHelper LineRenderer;
         public PoolCreator PoolCreator;
+        public GameManager GameManager;
 
         public Context() {
             Instance = this;

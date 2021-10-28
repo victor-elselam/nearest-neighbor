@@ -14,7 +14,8 @@ namespace Elselam.Pool {
 
         public void AddItem(int count = 1) {
             for (var i = 0; i < count; i++) {
-                objects.Add(itemReference.Create(ref objects));
+                //this pattern allows the same pool code for game objects and c# classes
+                objects.Add(itemReference.Create(ref objects)); 
             }
         }
 

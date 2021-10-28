@@ -1,4 +1,3 @@
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -15,8 +14,9 @@ namespace Elselam.GameElements {
         }
 
         public void Update() {
-            if (neighbors.IsNullOrEmpty()) 
+            if (neighbors.IsNullOrEmpty()) {
                 return;
+            }
 
             //we need to make a copy to ensure we won't mess our for loop if another instance is added while iterating
             var listForIteration = neighbors.ToList();;
@@ -32,16 +32,19 @@ namespace Elselam.GameElements {
                 }
             }
             
-            if (nearest)
+            if (nearest) {
                 UpdateLine(nearest.transform.position);
+            }
         }
 
         private void UpdateLine(Vector3 target) {
-            if (!lineRenderer) 
+            if (!lineRenderer) {
                 return;
-            if (!lineRenderer.gameObject.activeInHierarchy)
+            }
+            if (!lineRenderer.gameObject.activeInHierarchy) {
                 lineRenderer.gameObject.SetActive(true);
-            
+            }
+
             lineRenderer.SetPositions(new []{transform.position, target});
         }
 

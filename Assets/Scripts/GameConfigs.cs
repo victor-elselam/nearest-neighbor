@@ -4,6 +4,9 @@ using UnityEngine;
 namespace Elselam {
     [CreateAssetMenu(menuName = "Create GameConfigs", fileName = "GameConfigs", order = 0)]
     public class GameConfigs : ScriptableObject {
+        [SerializeField] [Range(0, 10)] private float cubeSpeed = 5f;
+        public float CubeSpeed => cubeSpeed;
+        
         [SerializeField] private LineRenderer lineRendererPrefab;
         public LineRenderer LineRenderer => lineRendererPrefab;
         

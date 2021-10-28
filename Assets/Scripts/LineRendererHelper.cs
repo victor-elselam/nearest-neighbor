@@ -11,8 +11,8 @@ namespace Elselam {
         public LineRenderer Create(Vector3 pointA, Vector3 pointB, Color color) {
             var line = Object.Instantiate(lineRenderer);
             line.transform.position = Vector3.zero;
-            line.startWidth = 2;
-            line.endWidth = 2;
+            line.startWidth = 1;
+            line.endWidth = 1;
             
             line.SetPositions(new []{pointA, pointB});
             line.startColor = color;
