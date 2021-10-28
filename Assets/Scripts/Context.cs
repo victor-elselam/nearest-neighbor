@@ -15,7 +15,7 @@ namespace Elselam {
             Instance = this;
             
             GameConfigs = Resources.Load<GameConfigs>("GameConfigs");
-            LineRenderer = new LineRendererHelper(GameConfigs.LineRenderer);
+            LineRenderer = new LineRendererHelper(GameConfigs);
             PoolCreator = new PoolCreator();
             GameManager = Object.Instantiate(Resources.Load<GameManager>("GameManager"));
         }
