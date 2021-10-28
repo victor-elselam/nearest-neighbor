@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f56d1d1d2ca463a955c879968ab7e53, type: 3}
+  m_Name: GameConfigs
+  m_EditorClassIdentifier: 
+  lineRendererPrefab: {fileID: 7902959191345803486, guid: 20867ba0f181e4f9a96a9fbfa17b9bc6, type: 3}
+  nearestNeighborPrefab: {fileID: 7535128424508372760, guid: 09bce514fa78a49458a995415d79a67d, type: 3}
+  positionBounds:
+    X: 20
+    Y: 20
+    Z: 20
+  addItemKey: 97
+  removeItemKey: 114
